@@ -7,12 +7,8 @@ import { CompletedTaskComponent } from './components/completed-task/completed-ta
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/all',
-    pathMatch: 'full',
-  },
-  {
-    path: 'all',
     component: AllTaskComponent,
+    pathMatch: 'full',
   },
   {
     path: 'pending',
